@@ -15,7 +15,11 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": ".", // Local onde está o tsConfig
+    "paths": {
+        "@src/*": ["./src/*"], // Tudo que tiver dentro de src, será acessivel atráves de @src/*
+    }
   },
   "include": [
     "next-env.d.ts",
