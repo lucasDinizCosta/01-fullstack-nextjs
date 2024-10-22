@@ -10,7 +10,9 @@
 
 5 - `git init` para inicializar o repositório git
 
-# Arquivos a serem criadas
+6 - `yarn add styled-components`: Adição de styled components
+
+## Arquivos a serem criadas
 
 1 - Pasta `pages` na raiz do projeto
 
